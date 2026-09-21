@@ -3,6 +3,7 @@ class Solution {
         int dp[] = new int[n+4];
         
         int mod = (int)(Math.pow(10,9)+7);
+        dp[0] = 1;
         dp[1] = 1;
         dp[2] = 2;
         dp[3] = 5;
